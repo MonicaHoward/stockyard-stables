@@ -1,0 +1,7 @@
+Paper {
+    display: 'flex';
+    flex-wrap: 'wrap';
+    margin: 0;
+    width: 100vw;
+    height: 100vw;
+}
