@@ -19,3 +19,16 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.arrow-container{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    background: white;
+    cursor: pointer;
+    align-items: center;
+    transition: transform ease-in 0.1s;
+    opacity: 0.2;
+}
