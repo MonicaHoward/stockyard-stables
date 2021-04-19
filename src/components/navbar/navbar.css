@@ -1,0 +1,13 @@
+.nav{
+    width: 90vw;
+    margin: 0 auto;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.tickets{
+    background-color: crimson;
+    color: white;
+}

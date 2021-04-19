@@ -7,8 +7,7 @@ const Slide = ({content}) => {
             className="slide" 
             style={{ backgroundImage: `url('${content}')`}}
         >
-            <h1>STOCKYARDS STABLES</h1>
-            <h2>A Texas Cowboy Adventure!</h2>
+            <h1 className="header-text">A <br/>Cowboy<br/> Adventure!</h1>
         </div>
     )
 }
