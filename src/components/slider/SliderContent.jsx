@@ -10,6 +10,10 @@ const SliderContent = ({slides}) => {
                     <Slide 
                         key={slide + i} 
                         content={slide} 
+                        style={{
+                            transform: 'translateX(-${props => props.translate}px)}',   
+                            transition: 'transform ease-out ${props => props.transition}s'
+                        }}
                     />
                 ))}
         </div>
